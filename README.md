@@ -50,6 +50,14 @@ We run an instance of Storybook to test the component API
 npm run storybook
 ```
 
+### Publishing documentation
+
+Documenting a component's API can be time consuming. We can simplify things by using [Storybook](https://storybook.js.org/). This repo has a github action that publishes the Storybook to github pages on every commit to the `main` branch.
+
+```bash
+npm run build-storybook
+```
+
 ## FAQ
 
 ### How would I recreate a similar repo like this one but from scratch?
