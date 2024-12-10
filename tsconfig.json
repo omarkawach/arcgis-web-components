@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "es2015",
+    "lib": ["es2021", "dom"],
+    "skipLibCheck": true,
+
+    // declarations
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "emitDeclarationOnly": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    // "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.stories.ts", "dist"],
+}

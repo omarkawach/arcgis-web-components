@@ -1,0 +1,17 @@
+import { Meta, Title } from "@storybook/blocks";
+import { html } from 'lit';
+import "../components/arcgis-web-map/arcgis-web-map";
+
+<Meta title="Welcome" />
+
+<Title>Welcome</Title>
+
+This is a simple Storybook for the `<arcgis-web-map></arcgis-web-map>` component.
+
+<div style={{height: "600px"}}>
+    <link
+        rel="stylesheet"
+        href="https://js.arcgis.com/4.30/esri/themes/light/main.css"
+    />
+    <arcgis-web-map item-id="05e015c5f0314db9a487a9b46cb37eca"></arcgis-web-map>
+</div>
