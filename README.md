@@ -1,10 +1,14 @@
 # Build your own GIS web component library
 
+> Disclaimer: The code in this repo are my own and don’t necessarily represent Esri’s position, strategies, or opinions.
+
 The intent of this repo is to help you get started with creating your own web component library based on a GIS web mapping library. Although you could use any mapping library you'd prefer, we're going to use [ArcGIS Maps SDK for JavaScript](https://developers.arcgis.com/javascript/latest/) as an example. If you want to see this done with [MapLibre GL JS](https://maplibre.org/), check out [foss-gis-web-components](https://github.com/omarkawach/foss-gis-web-components/tree/main).
 
 ## Components
 
 We only include one component as part of this component library / package. That is the `<arcgis-web-map></arcgis-web-map>` component which allows you to add a series of points to a map. There are no plans to include additional components.
+
+You can view this component live [here](https://omarkawach.github.io/arcgis-web-components/) in a Storybook.
 
 ## Get started
 
