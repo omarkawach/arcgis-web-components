@@ -142,6 +142,7 @@ If you're looking to write some truly "enterprise-ready" web components, you wil
 - Documentation
   - How will you output and share documentation?
   - E.g., TypeDoc, JSON, MDX, etc. 
+  - Check out the [Custom Elements Manifest](https://custom-elements-manifest.open-wc.org/)
 - Support module formats other than [ECMAScript Modules](https://nodejs.org/api/esm.html) (ESM), like [AMD](https://en.wikipedia.org/wiki/Asynchronous_module_definition)
   - If we only support ESM applications then that means vanilla JavaScript script-tag users who prefer writing quick apps in an `index.html` file will struggle. The level of complexity for implementing this support can depend on how well your mapping library plays with certain module formats.
 - How to handle styling (e.g., [adoptedStyleSheets](https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptedStyleSheets), light DOM / shadow DOM, etc.)
